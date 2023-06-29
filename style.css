@@ -1,3 +1,21 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgb(78, 79, 80);
+}
+
+.title {
+  font-size: 80px;
+  text-align: center;
+  padding: 10px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 150px;
+  margin-left: 250px;
+}
 .container {
   display: grid;
   width: 500px;
@@ -7,5 +25,4 @@
 }
 
 .gridElement {
-  background-color: blue;
 }
